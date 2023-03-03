@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: silver;
+    padding:  7px;
+}
+
+h2 {
+    flex: 4;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+ ul{ 
+    display: flex;
+    justify-content: space-between; 
+    flex: 1;
+    font-size: 20px;
+ }
+.nav {
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+section div {
+    flex: 4;
+}
+p {
+    flex: 4;
+   font-size: 30px;
+}
+.links { 
+    flex: 1;
+    font-size: 20px;
+}
+h3 {
+    font-size: 23px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(195, 190, 190)
+}
